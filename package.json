@@ -1,0 +1,34 @@
+{
+  "name": "score",
+  "version": "0.0.0",
+  "description": "Unnamed repository; edit this file 'description' to name the repository.\n",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/score.git"
+  },
+  "homepage": "https://github.com/carlos8f/score",
+  "keywords": [
+    "score",
+    "sort",
+    "online",
+    "deterministic",
+    "rank",
+    "parallel",
+    "stable",
+    "ordinal",
+    "radix"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos8f/score/issues"
+  }
+}
