@@ -6,11 +6,7 @@ function scorer (maxLength) {
   var p = packer(lengths);
   return function score (str) {
     var values = [], len = str.length;
-    for (var i = 0; i < len; i++) {
-      var val = str.charCodeAt(i);
-      if (typeof val === 'undefined') throw new Error('undefined val at pos ' + i + ' of ' + str);
-      values.push(val);
-    }
+    for (var i = 0; i < len; i++) values.push(str.charCodeAt(i));
     return p.pack(values);
   };
 }
