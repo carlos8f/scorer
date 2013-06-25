@@ -1,10 +1,33 @@
-score
-=====
+scorer
+======
 
-Unnamed repository; edit this file &#x27;description&#x27; to name the repository.
-
+generate the total ordinal score of a string
 
 [![build status](https://secure.travis-ci.org/carlos8f/score.png)](http://travis-ci.org/carlos8f/score)
+
+## Idea
+
+The idea is that given an an ASCII or lower-ordinal utf8 string, `scorer` will
+give you a "string ordinal", a deterministic number which any set of strings
+could be sorted by, without direct comparison or having access to the entire set.
+
+The catch is that you must pre-define the max byte length of your index.
+
+One use case could be generating ranks to use with
+[redis sorted sets](http://redis.io/commands#sorted_set).
+
+## Example
+
+```js
+var score = require('scorer')(10);
+// we've created a scoring function with a max byte length of 10.
+console.log(score('Carlos Rodriguez'));
+// the result is actually an instance of justmoon/node-bignum, with a special
+// toString() method that zero-pads the value.
+// <BigNum 067097114108111115032082111100>
+console.log(score('Carlos Rodriguez').toNumber());
+// 6.709711410811112e+28
+``` 
 
 - - -
 
