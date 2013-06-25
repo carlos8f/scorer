@@ -15,9 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/carlos8f/score.git"
+    "url": "git://github.com/carlos8f/scorer.git"
   },
-  "homepage": "https://github.com/carlos8f/score",
+  "homepage": "https://github.com/carlos8f/scorer",
   "keywords": [
     "score",
     "sort",
@@ -32,6 +32,6 @@
   "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carlos8f/score/issues"
+    "url": "https://github.com/carlos8f/scorer/issues"
   }
 }
