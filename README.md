@@ -3,7 +3,7 @@ scorer
 
 generate the total ordinal score of a string
 
-[![build status](https://secure.travis-ci.org/carlos8f/score.png)](http://travis-ci.org/carlos8f/score)
+[![build status](https://secure.travis-ci.org/carlos8f/scorer.png)](http://travis-ci.org/carlos8f/scorer)
 
 ## Idea
 
