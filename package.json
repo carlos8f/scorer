@@ -1,6 +1,6 @@
 {
   "name": "scorer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "generate the total ordinal score of a string",
   "main": "index.js",
   "dependencies": {
