@@ -4,7 +4,7 @@
   "description": "generate the total ordinal score of a string",
   "main": "index.js",
   "dependencies": {
-    "int-packer": "~0.1.1"
+    "int-packer": "~0.2.0"
   },
   "devDependencies": {
     "mocha": "*",
