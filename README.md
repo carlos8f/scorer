@@ -13,9 +13,6 @@ could be sorted by, without direct comparison or having access to the entire set
 
 The catch is that you must pre-define the max byte length of your index.
 
-One use case could be generating ranks to use with
-[redis sorted sets](http://redis.io/commands#sorted_set).
-
 ## Example
 
 ```js
